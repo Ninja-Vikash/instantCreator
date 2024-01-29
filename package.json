@@ -1,0 +1,14 @@
+{
+  "name": "instant-file-creator",
+  "version": "1.0.0",
+  "description": "This will create all necessary files for fronted development instantly.\\",
+  "main": "main.js",
+  "scripts": {
+    "test": "instantCreate"
+  },
+  "keywords": [
+    "instantCreate"
+  ],
+  "author": "ninja-vikash",
+  "license": "ISC"
+}
