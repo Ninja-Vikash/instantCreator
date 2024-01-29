@@ -1,9 +1,9 @@
 # instantCreator
-Instant Creator provide you a complete set of files to start frontend development.
+Instant Creator provides you with a complete set of files to start frontend development.
 <br>
 **It will create files with their initial code.**
 <br>
-Meanwhile it will deploy `index.html` & `style.css` with their boilerplate code & CSS resetting code respectively.
+Meanwhile, it will deploy `index.html` & `style.css` with their boilerplate code & CSS resetting code respectively.
 
 ### How to use it
 
@@ -13,7 +13,7 @@ Meanwhile it will deploy `index.html` & `style.css` with their boilerplate code 
    ```
    npm init -y
    ```
-   > `npm init -y` for initializing nodejs without any further question.
+   > `npm init -y` for initializing nodejs without any further questions.
 4. Paste the code in `main.js`
     ```
     const fs = require("fs");
@@ -28,7 +28,7 @@ Meanwhile it will deploy `index.html` & `style.css` with their boilerplate code 
         );
     };
     
-    fileCreator("Document"); // Pass here the name of your webpage you want to show.
+    fileCreator("Document"); // Pass here the name of the webpage you want to show.
     
     // CSS Resetter Initializer & Creator
     fs.writeFile(
@@ -40,7 +40,7 @@ Meanwhile it will deploy `index.html` & `style.css` with their boilerplate code 
     );
 
     ```
-    > Code for instantCreator. | You can change title of webpage by passing name on `fileCreator("mywebpage")`
+    > Code for instantCreator. | You can change the title of the webpage by passing the name on `fileCreator("mywebpage")`
 5. To run the code
     ```
     node main.js
@@ -50,4 +50,4 @@ Meanwhile it will deploy `index.html` & `style.css` with their boilerplate code 
 **• CSS file with reset style** <br>
 **• CSS file linked with HTML**
 
-### instantCreator does all the primary work for frontend developer.
+### instantCreator does all the primary work for the front-end developers.
