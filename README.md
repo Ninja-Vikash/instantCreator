@@ -50,4 +50,6 @@ Meanwhile, it will deploy `index.html` & `style.css` with their boilerplate code
 **• CSS file with reset style** <br>
 **• CSS file linked with HTML**
 
+### You must have nodejs installed on your PC. Because with nodejs npm won't work.
+
 ### instantCreator does all the primary work for the front-end developers.
