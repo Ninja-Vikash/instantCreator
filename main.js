@@ -4,7 +4,7 @@ const fileCreator = (projectName) => {
 // HTML file Initializer & Creator
   fs.writeFile(
     `index.html`,
-    `<!DOCTYPE html> \n<html lang="en"> \n<head> \n\t<meta charset="UTF-8"> \n\t<meta name="viewport" content="width=device-width, initial-scale=1.0"> \n\t<title>${projectName}</title> \n\t<link rel="stylesheet" href="style.css"> \n</head> \n<body> \n\n</body>\n</html>`,
+    `<!DOCTYPE html> \n<html lang="en"> \n<head> \n\t<meta charset="UTF-8"> \n\t<meta name="viewport" content="width=device-width, initial-scale=1.0"> \n\t<title>${projectName}</title> \n\t<link rel="stylesheet" href="style.css"> \n</head> \n<body> \n\t<!-- Thanks for using instantCreator --> \n\t<h1>Hello World!</h1> \n</body>\n</html>`,
     () => {
       console.log("HTML file created successfully!");
     }
