@@ -13,7 +13,7 @@ Meanwhile, it will deploy `index.html` & `style.css` with their boilerplate code
    ```
    npm init -y
    ```
-   > `npm init -y` for initializing nodejs without any further questions.
+   > `npm init -y` to skip questions
 4. Paste the code in `main.js`
     ```
     const fs = require("fs");
