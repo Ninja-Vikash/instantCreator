@@ -1,20 +1,26 @@
-# instantCreator
-Instant Creator provides you with a complete set of files to start frontend development.
-<br>
-**It will create files with their initial code.**
-<br>
-Meanwhile, it will deploy `index.html` & `style.css` with their boilerplate code & CSS resetting code respectively.
+# InstantCreator
+
+Instant Creator simplifies your frontend development journey by providing a comprehensive set of files to kickstart your project.
+
+**Key Features:**
+- Quickly generates files with their initial code.
+- Automates the creation of `index.html` and `style.css` files, complete with boilerplate HTML and CSS resetting code.
+
+Get started effortlessly with InstantCreator for a seamless and efficient front-end development experience! 🚀✨
 
 ### How to use it
 
-1. Create a folder for your project
-2. Create `main.js`
-3. Initialize npm on your directory using
+1. Create a folder for your project.
+2. Create `main.js`.
+3. Initialize npm in your directory using:
    ```
    npm init -y
    ```
-   > `npm init -y` to skip questions
-4. Paste the code in `main.js`
+   
+   > Use `npm init -y` to skip configuration prompts during initialization.
+
+4. Paste the following code into your `main.js` file:
+
     ```
     const fs = require("fs");
     const fileCreator = (projectName) => {
@@ -40,16 +46,23 @@ Meanwhile, it will deploy `index.html` & `style.css` with their boilerplate code
     );
 
     ```
-    > Code for instantCreator. | You can change the title of the webpage by passing the name on `fileCreator("mywebpage")`
-5. To run the code
+    > Code for InstantCreator. Customize the webpage title by passing the desired name to `fileCreator("mywebpage")`.
+
+5. To run the code, execute the following command in your terminal:
     ```
     node main.js
     ```
+    
 ## Benefits
-**• HTML file with Basic Skeleton** <br>
-**• CSS file with reset style** <br>
-**• CSS file linked with HTML**
 
-### You must have nodejs installed on your PC. Because with nodejs npm won't work.
+- HTML file with Basic Skeleton
+- CSS file with reset style
+- CSS file linked with HTML
 
-### instantCreator does all the primary work for the front-end developers.
+### Prerequisites
+
+Ensure you have Node.js installed on your PC, as npm won't work without it.
+
+### InstantCreator
+
+InstantCreator handles all the essential tasks for front-end developers.
