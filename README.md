@@ -17,27 +17,50 @@ Meanwhile, it will deploy `index.html` & `style.css` with their boilerplate code
 4. Paste the code in `main.js`
     ```
     const fs = require("fs");
+
     const fileCreator = (projectName) => {
-    // HTML file Initializer & Creator
-        fs.writeFile(
-        `index.html`,
-        `<!DOCTYPE html> \n<html lang="en"> \n<head> \n\t<meta charset="UTF-8"> \n\t<meta name="viewport" content="width=device-width, initial-scale=1.0"> \n\t<title>${projectName}</title> \n\t<link rel="stylesheet" href="style.css"> \n</head> \n<body> \n\t<!-- Thanks for using instantCreator --> \n\t<h1>Hello World!</h1> \n</body>\n</html>`,
-        () => {
-            console.log("HTML file created successfully!");
-        }
-        );
+    // -------------------- CODE FOR HTML WRITING
+    const boilerplate = `<!DOCTYPE html> 
+    <html lang="en"> 
+    <head> 
+       <meta charset="UTF-8"> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+       <title>${projectName}</title> 
+       <link rel="stylesheet" href="style.css"> 
+    </head> 
+    <body> 
+	   <!-- Thanks for using instantCreator --> 
+	   <h1>Hello World!</h1> 
+    </body>
+    </html>
+    `;
+    fs.writeFile("index.html", boilerplate, () => {
+      console.log("HTML file created successfully!");
+    });
     };
-    
-    fileCreator("Document"); // Pass here the name of the webpage you want to show.
-    
-    // CSS Resetter Initializer & Creator
-    fs.writeFile(
-        "style.css",
-        `@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap'); \n\n* { \n\tmargin: 0; \n\tpadding: 0; \n\tbox-sizing: border-box; \n\tfont-family: 'Poppins';\n} \n\nbody, \nhtml { \n\theight: 100%; \n\twidth: 100%;\n}`,
-        () => {
-        console.log("CSS file Created Successfully!");
-        }
-    );
+
+    // -------------------- CODE FOR CSS WRITING
+    const cssBoilerplate = `@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap'); 
+
+    * { 
+	  margin: 0; 
+	  padding: 0; 
+	  box-sizing: border-box; 
+	  font-family: 'Poppins';
+    } 
+
+    body, 
+    html { 
+	  height: 100%; 
+	  width: 100%;
+    }
+    `;
+
+    fs.writeFile("style.css", cssBoilerplate, () => {
+      console.log("CSS file Created Successfully!");
+    });
+
+    fileCreator("document"); // Pass here the name of your webpage you want to show.
 
     ```
     > Code for instantCreator. | You can change the title of the webpage by passing the name on `fileCreator("mywebpage")`
