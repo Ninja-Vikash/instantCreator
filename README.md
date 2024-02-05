@@ -1,5 +1,7 @@
 # InstantCreator
 
+Here is our latest edition <a href="https://github.com/Ninja-Vikash/instantCreatorPlus">instantCreator+</a>
+
 Instant Creator simplifies your frontend development journey by providing a comprehensive set of files to kickstart your project.
 
 **Key Features:**
