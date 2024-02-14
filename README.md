@@ -23,11 +23,11 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
 
 4. Paste the following code into your `main.js` file:
 
-    ```
+    ```js
     const fs = require("fs");
 
     const fileCreator = (projectName) => {
-    // -------------------- CODE FOR HTML WRITING
+    // -------------------- CODE FOR HTML WRITING --------------------------
     const boilerplate = `<!DOCTYPE html> 
     <html lang="en"> 
     <head> 
@@ -47,7 +47,7 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
     });
     };
 
-    // -------------------- CODE FOR CSS WRITING
+    // -------------------- CODE FOR CSS WRITING -------------------------
     const cssBoilerplate = `@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap'); 
 
     * { 
