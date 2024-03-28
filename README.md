@@ -1,10 +1,10 @@
 # InstantCreator
-
+### ⚡Fast Deployment
 Here is our latest edition <a href="https://github.com/Ninja-Vikash/instantCreatorPlus">instantCreator+</a>
 
 Instant Creator simplifies your frontend development journey by providing a comprehensive set of files to kickstart your project.
 
-**Key Features:**
+**Key Features 🌟**
 - Quickly generates files with their initial code.
 - Automates the creation of `index.html` and `style.css` files, complete with boilerplate HTML and CSS resetting code.
 
@@ -18,8 +18,8 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
    ```
    npm init -y
    ```
-   
-   > Use `npm init -y` to skip configuration prompts during initialization.
+> [!NOTE]\
+> Use `npm init -y` to skip configuration prompts during initialization.
 
 4. Paste the following code into your `main.js` file:
 
@@ -71,23 +71,27 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
     fileCreator("document"); // Pass here the name of your webpage you want to show.
 
     ```
-    > Code for InstantCreator. Customize the webpage title by passing the desired name to `fileCreator("mywebpage")`.
+    
+> [!NOTE]\
+> Code for InstantCreator. Customize the webpage title by passing the desired name to `fileCreator("mywebpage")`.
 
 5. To run the code, execute the following command in your terminal:
     ```
     node main.js
     ```
     
-## Benefits
+## Benefits 🎁
 
 - HTML file with Basic Skeleton
 - CSS file with reset style
 - CSS file linked with HTML
 
-### Prerequisites
+### Prerequisites ⚠️
 
-Ensure you have Node.js installed on your PC, as npm won't work without it.
+Ensure you have `Node.js` installed on your PC, as `npm` won't work without it.
 
 ### InstantCreator
 
 InstantCreator handles all the essential tasks for front-end developers.
+
+#### Thank You ❤️
