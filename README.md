@@ -26,52 +26,75 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
     ```js
     const fs = require("fs");
 
-    const fileCreator = (projectName) => {
-    // -------------------- CODE FOR HTML WRITING --------------------------
-    const boilerplate = `<!DOCTYPE html> 
+    /**
+     *  Code for creating html document
+    */
+    const instantCreator = (projectName) => {
+      const indexHTML = `<!DOCTYPE html> 
     <html lang="en"> 
     <head> 
-       <meta charset="UTF-8"> 
-       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-       <title>${projectName}</title> 
-       <link rel="stylesheet" href="style.css"> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>${projectName}</title> 
+        <link rel="stylesheet" href="style.css"> 
     </head> 
     <body> 
-	   <!-- Thanks for using instantCreator --> 
-	   <h1>Hello World!</h1> 
+        <!-- Write your code here --> 
+        <h1>Hello World!</h1>
+        <script src="script.js"></script>
     </body>
     </html>
     `;
-    fs.writeFile("index.html", boilerplate, () => {
-      console.log("HTML file created successfully!");
-    });
+      fs.writeFile("index.html", indexHTML, () => {
+        console.log("\u2713 FILE : HTML file has been created!");
+      });
     };
 
-    // -------------------- CODE FOR CSS WRITING -------------------------
-    const cssBoilerplate = `@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap'); 
+    /**
+     *  Code for creating css document
+    */
+    const styleCSS = `@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap'); 
 
     * { 
-	  margin: 0; 
-	  padding: 0; 
-	  box-sizing: border-box; 
-	  font-family: 'Poppins';
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+      font-family: 'Poppins';
     } 
 
     body, 
     html { 
-	  height: 100%; 
-	  width: 100%;
+      height: 100%; 
+      width: 100%;
     }
     `;
 
-    fs.writeFile("style.css", cssBoilerplate, () => {
-      console.log("CSS file Created Successfully!");
-    });
+    setTimeout(() => {
+      fs.writeFile("style.css", styleCSS, () => {
+        console.log("\u2713 FILE : CSS file has been created!");
+      });
+    }, 0);
 
-    fileCreator("document"); // Pass here the name of your webpage you want to show.
+    /**
+     *  Code for creating js document
+    */
+    const scriptJS = `console.log("Hello World")`;
 
+    setTimeout(() => {
+      fs.writeFile("script.js", scriptJS, () => {
+        console.log("\u2713 FILE : Javascript file has been created!");
+      });
+    }, 0);
+
+    instantCreator("document"); // Pass here the name of your webpage you want to show.
+
+    /**
+     *  Confirmation
+    */
+    setTimeout(() => {
+      console.log("\u2713 DONE : instantCreator deployment!");
+    }, 500);
     ```
-    
 > [!NOTE]\
 > Code for InstantCreator. Customize the webpage title by passing the desired name to `fileCreator("mywebpage")`.
 
