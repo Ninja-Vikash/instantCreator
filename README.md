@@ -96,7 +96,7 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
     }, 500);
     ```
 > [!NOTE]\
-> Code for InstantCreator. Customize the webpage title by passing the desired name to `fileCreator("mywebpage")`.
+> Code for InstantCreator. Customize the webpage title by passing the desired name to `instantCreator("mywebpage")`.
 
 5. To run the code, execute the following command in your terminal:
     ```
