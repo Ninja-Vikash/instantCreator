@@ -36,8 +36,6 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
 
    touch main.js
 
-   echo "// Paste the code here" >> main.js
-
    npm init -y
 
    code .
@@ -154,6 +152,7 @@ Get started effortlessly with InstantCreator for a seamless and efficient front-
     ```bash
     node main.js
     ```
+    You can delete `main.js`
 
 ### Built with ❤️ and JavaScript
 #### Happy Coding! 🤝
