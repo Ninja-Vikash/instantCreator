@@ -1,4 +1,6 @@
-# InstantCreator
+# InstantCreator ![Node.js](https://img.shields.io/badge/node.js-v20.11.0-green) 
+
+
 ### ⚡Fast Deployment
 Latest version ✨: <a href="https://github.com/Ninja-Vikash/instantCreatorPlus">instantCreator+</a>
 
